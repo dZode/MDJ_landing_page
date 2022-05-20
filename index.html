@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaSha's Berry Awesome Lemonade Stand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="logo">MaSha's Berry Awesome Lemonade Stand</div>
+        <img src="Mockup.png"  class="bg">
+        <div class="content">
+            <h2>Hand Squeezed Strawberry Lemonade with a <span class="secretText">Secret Recipe</span>!</h2>
+            <p>If you're reading this, you're way early to a revolutionary concept. More to come in the near future but to put it short you will have the opportunity to be an early investor and reap a multitude of Genesis backer benefits.</p>
+            <br/>
+            <p>
+                Masha's Berry Awesome Lemonade Stand is the first book to be released by MDJ Publishing. This book will be used to establish our original true fans, who will be offer prime benefits for the first major comic book NFT drop as well as lifetime whitelist upon Genesis NFT purchase. You don't want to miss out on this new Web3 company, invest in your child's future with books today! Stay Tuned!
+            </p>
+            <a href="https://opensea.io/">Coming Soon!</a>
+            <p class="copyrightText">©2022. MDJ Publishing</p>
+            <p>This site is under construction! Please come back soon!</p>
+        </div>
+    </section>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <div class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">MDJ Publishing</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="socialBar">
+            <ul>
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul>
+            <a href="mailto:damien@millennialparentspodcast.com" class="emailBx"><img src="email.png"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.menuToggle');
+            var navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
